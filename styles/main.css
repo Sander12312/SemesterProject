@@ -286,6 +286,8 @@ font-weight: 200;
     background-color: #6f00ff;
     box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */
 }
+
+/*Desktop version*/
 @media(min-width:600px){
     /*header and navigation*/
     .hamburger, #menu-checkbox, i{
@@ -355,14 +357,32 @@ margin-left: 1vw;
 .news-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 1vw;
     width: 20vw;
-    height: 10vw;
+    height: 5vw;
     margin-left: 10vw;
     margin-bottom: 25vw;
 }
 .professor-image, .night-image, .loan-image{
     width: 27.5vw ;
-    height: 35vw;
+    height: 25vw;
+}
+.professor-card, .night-card, .loan-card{
+    height: 65vw;
+}
+.night-heading, .loan-heading, .professor-heading{
+    font-size: 2.5vw;
+    display: flex;
+margin-left: 3vw;
+}
+.night-text, .loan-text, .professor-text{
+    margin-left: -1vw;
+    margin-top: -7.5vw;
+    margin-bottom: 5vw;
+    font-size: 1.5vw;
+}
+.news-explore-small-button{
+    position: absolute;
+    margin-left: 5vw;
 }
 }
