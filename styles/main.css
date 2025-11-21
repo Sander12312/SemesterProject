@@ -231,6 +231,61 @@ background-image: url(../photos/RobotsandAI.jpg);
     color: rgb(255, 255, 255);
     margin-left: 2vw;
 }
+/*News section*/
+.news-heading{
+    font-size: 4vw;
+    color:white;
+    margin-left: 10vw;
+}
+.news-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2vw;
+    width: 75vw;
+    margin-left: 10vw;
+}
+.professor-image, .night-image, .loan-image{
+    width: 75vw;
+    border-radius: 2vw;
+}
+.professor-card, .night-card, .loan-card{
+    margin-top: 2vw;
+    background-color: #00c54c65;
+    border-radius: 2vw;
+}
+.night-heading, .loan-heading, .professor-heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4.3vw;
+    font-weight: bolder;
+}
+.night-text, .loan-text, .professor-text{
+color: white;
+margin-left: 2vw;
+margin-right: 2vw;
+padding: 5vw;
+font-weight: 200;
+}
+.news-explore-small-button{
+    position: absolute;
+    margin-top: -6vw;
+    margin-left: 25vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+}
+.news-explore-small-button:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */
+}
 @media(min-width:600px){
     /*header and navigation*/
     .hamburger, #menu-checkbox, i{
@@ -251,6 +306,7 @@ background-image: url(../photos/RobotsandAI.jpg);
     gap: 1rem;
     height: 10vw;
     margin-left: 10vw;
+    margin-bottom: 25vw;
 }
 .explore-small-button{
     position: absolute;
@@ -268,45 +324,45 @@ background-image: url(../photos/RobotsandAI.jpg);
     width: 15vw;
     border-radius: 2vw;
 }
-.cosmos-heading{
+.cosmos-heading, .robotics-and-ai-heading, .biology-and-medicine-heading, .ecology-heading, .evolution-heading{
 font-size: 2vw;
+margin-left: 1vw;
 }
 .robotics-and-ai{
     height: 35vw;
     width: 15vw;
     border-radius: 2vw;
 }
-.robotics-and-ai-heading{
-font-size: 2vw;
-margin-left: 1vw;
-}
+
 .biology-and-medicine{
     height: 35vw;
     width: 15vw;
     border-radius: 2vw;
 }
-.biology-and-medicine-heading{
-font-size: 2vw;
-margin-left: 1vw;
-}
+
 .ecology{
     height: 35vw;
     width: 15vw;
     border-radius: 2vw;
 }
-.ecology-heading{
-font-size: 2vw;
-margin-left: 1vw;
-}
+
 .evolution{
     height: 35vw;
     width: 15vw;
     border-radius: 2vw;
 }
-.evolution-heading{
-font-size: 2vw;
-margin-left: 1vw;
+/*News section*/
+.news-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 20vw;
+    height: 10vw;
+    margin-left: 10vw;
+    margin-bottom: 25vw;
 }
-
-
+.professor-image, .night-image, .loan-image{
+    width: 27.5vw ;
+    height: 35vw;
+}
 }
