@@ -51,7 +51,7 @@ font-weight: 200;
     color: white;
     background-color: #6f00ff8e;
 }
-.news-explore-small-button:hover{
+.news-explore-small-button-newspage:hover{
     background-color: #6f00ff;
     box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */
 }

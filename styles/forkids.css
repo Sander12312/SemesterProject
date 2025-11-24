@@ -1,6 +1,9 @@
 .linking-header{
     color: white;
 }
+*{
+    color: white;
+}
 .forkids{
     margin-left: 5vw;
     margin-top: 5vw;
@@ -12,4 +15,99 @@ aside{
     flex-direction: row;
     height: 10vw;
     margin-left: 5vw;
+}
+.for-kids-kidspage{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2vw;
+    width: 75vw;
+    margin-left: 10vw;
+}
+.activities-image, .food-image, .shop-image{
+    width: 50vw;
+    margin-left: 12.5vw;
+    border-radius: 2vw;
+    margin-top: 2vw;
+}
+.activities-card, .food-card, .shop-card{
+    margin-top: 2vw;
+    background-color: #00c54c65;
+    border-radius: 2vw;
+    padding-bottom: 5vw;
+    margin-bottom: 5vw;
+}
+.activities-heading, .food-heading, .shop-heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-bottom: -5vw;
+    margin-top: 4vw;
+}
+.activities-list, .food-list, .shop-list{
+color: white;
+margin-left: 27.5vw;
+margin-right: 2vw;
+padding: 5vw;
+font-weight: 200;
+font-size: 2vw;
+}
+.kids-button{
+    position: absolute;
+    margin-top: -4vw;
+    margin-left: 27.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+}
+.kids-button:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */
+}
+/*desktop version*/
+@media (min-width:600px){
+    .for-kids-card-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .activities-card, .food-card, .shop-card{
+        display: flex;
+        flex-direction: row;
+        height: 50vw;
+    }
+    .activities-image, .food-image, .shop-image{
+        height: 30vw;
+        width: 20vw;
+        margin-top: 10vw;
+        margin-left: 10vw;
+    }
+    .desktop-column-kidspage{
+        display: flex;
+        flex-direction: column;
+    }
+    .activities-heading, .food-heading, .shop-heading{
+    margin-top: 10vw;
+    margin-left: 0vw;
+    font-size: 3vw;
+    margin-bottom: -4vw;
+    }
+    
+    .food-list, .activities-list, .shop-list{
+        margin-left: 5vw;
+        font-size: 2vw;
+        margin-top: 5vw;
+    }
+    .kids-button{
+    position:absolute;
+    margin-top: 40vw;
+    margin-left: 7.5vw;
+    }
 }
