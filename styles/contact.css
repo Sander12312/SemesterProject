@@ -1,0 +1,69 @@
+.linking-header{
+    color: white;
+}
+.contact-heading-contactpage{
+    color: white;
+    margin-left: 40vw;
+    margin-top: 10vw;
+    font-size: 4vw;
+}
+.contact-contactpage{
+    display: flex;
+    flex-direction: column;
+    background-color:#00c54c65;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 20vw;
+    margin-top: 10vw;
+}
+.contact-contactpage-forms{
+    max-width: 50vw;
+}
+input{
+    width: 30vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    height: 2vw;
+}
+textarea{
+    margin-left: 2vw;
+    width: 50vw;
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+    border-radius: 1vw;
+    height: 15vw;
+}
+
+.send-message-button-contactpage{
+    position: absolute;
+    margin-top: 70vw;
+    margin-left: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;}
+    /*desktop version*/
+    @media (min-width:600px)
+    {
+        textarea{
+            position: absolute;
+            margin-left: 40vw;
+            width: 30vw;
+            height: 17.5vw;
+            margin-top: 5vw;
+        }
+        .contact-contactpage-forms{
+            margin-bottom: 5vw;
+        }
+        .send-message-button-contactpage{
+            position: absolute;
+            margin-top: 32.5vw;
+            margin-left: 42.5vw;
+        }
+    }
