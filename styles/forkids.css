@@ -1,3 +1,15 @@
 .linking-header{
     color: white;
 }
+.forkids{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    color: white;
+    font-size: 3vw;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    height: 10vw;
+    margin-left: 5vw;
+}
