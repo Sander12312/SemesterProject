@@ -10,8 +10,11 @@
     margin-bottom: 10vw;
     font-size: 3vw;
 }
+
+/*The sky above us*/
 .cosmos-image-learn-more-page{
     width: 80vw;
+    height: 50vw;
     margin-left: 10vw;
     border-radius: 5vw;
     filter: brightness(20%);
@@ -19,20 +22,19 @@
 .cosmos-section-heading{
     position: absolute;
     margin-top: -40vw;
-    margin-left: 40vw;
+    margin-left: 30vw;
     font-size: 5vw;
 }
     
 .cosmos-section-text{
-position: absolute;
-margin-left: 30vw;
-margin-top: -30vw;
-font-size: 2vw;
-max-width: 50vw;
-max-height: 30vw;
-
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -30vw;
+    font-size: 2vw;
+    max-width: 55vw;
+    max-height: 30vw;
 }
-.small-images{
+.small-images-cosmos{
     display: flex;
     flex-direction: row;
     margin-top: 5vw;
@@ -112,7 +114,516 @@ font-size: 3vw;
  .explore-button-solarsystem:hover{
     background-color: #6f00ff;
     box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+/*Robots and ai section*/
+.Robots-and-ai-image-learn-more-page{
+    margin-top: 5vw;
+    width: 80vw;
+    height: 100vw;
+    margin-left: 10vw;
+    border-radius: 5vw;
+    filter: brightness(20%);
+}
+.robots-and-ai-heading{
+    position: absolute;
+    margin-top: -70vw;
+    margin-left: 30vw;
+    font-size: 5vw;
+}
+.robots-and-ai-text{
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -55vw;
+    font-size: 2vw;
+    max-width: 55vw;
+    max-height: 30vw;
+}
+.small-images-robots-and-ai{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-left: 10vw;
+
+}
+.robots-image, .ai-image, .future-image{
+    width: 20vw;
+    height: 30vw;
+    border-radius: 2.5vw;
+    margin-left: 5vw;
+    filter: brightness(50%);
+}
+.robots-heading{
+    position: absolute;
+    margin-left: 10vw;
+    font-size: 3vw;
+}
+.ai-heading{
+    position: absolute;
+    margin-left: 37.5vw;
+    font-size: 3vw;
+}
+.future-heading{
+position: absolute;
+margin-left: 60vw;
+font-size: 3vw;
+}
+.explore-button-robots{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 5.7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+}
+ .explore-button-ai{
+    position: absolute;
+    margin-left: 30.6vw;
+    margin-top: 24vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+ .explore-button-future{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 55.6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+.explore-button-robots:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+.explore-button-ai:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+ .explore-button-future:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+/*Biology section*/
+.biology-image{
+    margin-top: 5vw;
+    width: 80vw;
+    height: 100vw;
+    margin-left: 10vw;
+    border-radius: 5vw;
+    filter: brightness(20%);
+}
+.biology-heading{
+    position: absolute;
+    margin-top: -70vw;
+    margin-left: 42.5vw;
+    font-size: 5vw;
+}
+.biology-text{
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -55vw;
+    font-size: 2vw;
+    max-width: 55vw;
+    max-height: 30vw;
+}
+.small-images-biology{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-left: 10vw;
+
+}
+.brain-image, .humanbody-image, .heart-image{
+    width: 20vw;
+    height: 30vw;
+    border-radius: 2.5vw;
+    margin-left: 5vw;
+    filter: brightness(50%);
+}
+.humanbody-heading{
+    position: absolute;
+    margin-left: 5.5vw;
+    font-size: 2.8vw;
+}
+.brain-heading{
+    position: absolute;
+    margin-left: 36vw;
+    font-size: 2.8vw;
+}
+.heart-heading{
+position: absolute;
+margin-left: 61vw;
+font-size: 2.8vw;
+}
+.explore-button-humanbody{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 5.7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+}
+ .explore-button-brain{
+    position: absolute;
+    margin-left: 30.6vw;
+    margin-top: 24vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+ .explore-button-heart{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 55.6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+.explore-button-humanbody:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+.explore-button-heart:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+ .explore-button-brain:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+/*Ecology section*/
+.ecology-image{
+    margin-top: 5vw;
+    width: 80vw;
+    height: 100vw;
+    margin-left: 10vw;
+    border-radius: 5vw;
+    filter: brightness(20%);
+}
+.ecology-heading{
+    position: absolute;
+    margin-top: -70vw;
+    margin-left: 42.5vw;
+    font-size: 5vw;
+}
+.ecology-text{
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -55vw;
+    font-size: 2vw;
+    max-width: 55vw;
+    max-height: 30vw;
+}
+.small-images-ecology{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-left: 10vw;
+}
+.insects-image, .globalwarming-image, .pollution-image{
+    width: 20vw;
+    height: 30vw;
+    border-radius: 2.5vw;
+    margin-left: 5vw;
+    filter: brightness(50%);
+}
+.insects-heading{
+    position: absolute;
+    margin-left: 10vw;
+    font-size: 2.8vw;
+}
+.globalwarming-heading{
+    position: absolute;
+    margin-left: 34vw;
+    font-size: 2.8vw;
+    max-width: 10vw;
+}
+.pollution-heading{
+position: absolute;
+margin-left: 58vw;
+font-size: 2.8vw;
+}
+.explore-button-insects{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 5.7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+}
+ .explore-button-globalwarming{
+    position: absolute;
+    margin-left: 30.6vw;
+    margin-top: 24vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+ .explore-button-pollution{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 55.6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+.explore-button-insects:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+.explore-button-globalwarming:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+ .explore-button-pollution:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+/*Evolution section*/
+.evolution-image{
+    margin-top: 5vw;
+    width: 80vw;
+    height: 100vw;
+    margin-left: 10vw;
+    border-radius: 5vw;
+    filter: brightness(20%);
+}
+.evolution-heading{
+    position: absolute;
+    margin-top: -70vw;
+    margin-left: 40vw;
+    font-size: 5vw;
+}
+.evolution-text{
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -55vw;
+    font-size: 2vw;
+    max-width: 55vw;
+    max-height: 30vw;
+}
+.small-images-evolution{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-left: 10vw;
+}
+.darwin-image, .thestart-image, .creatures-image{
+    width: 20vw;
+    height: 30vw;
+    border-radius: 2.5vw;
+    margin-left: 5vw;
+    filter: brightness(50%);
+}
+.darwin-heading{
+    position: absolute;
+    margin-left: 10vw;
+    font-size: 2.8vw;
+}
+.thestart-heading{
+    position: absolute;
+    margin-left: 32.5vw;
+    font-size: 3vw;
+}
+.creatures-heading{
+position: absolute;
+margin-left: 58vw;
+font-size: 2.8vw;
+}
+.explore-button-darwin{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 5.7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+}
+ .explore-button-thestart{
+    position: absolute;
+    margin-left: 30.6vw;
+    margin-top: 24vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+ .explore-button-creatures{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 55.6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+.explore-button-darwin:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+.explore-button-thestart:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+ .explore-button-creatures:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
 /*desktop version*/
 @media (min-width:600px){
-    
-}
+    /*the sky above us section*/
+    .cosmos-image-learn-more-page{
+        margin-top: -5vw;
+        height: 60vw;
+    }
+    .cosmos-section-heading{
+        margin-top: -55vw;
+    }
+    .cosmos-section-text{
+        margin-top: -45vw;
+        max-width: 40;
+        margin-left: 25vw;
+        font-size: 1.5vw;
+    }
+    .small-images-cosmos{
+        position: absolute;
+        margin-top: -32vw;
+    }
+    .solarsystem-image, .stars-image, .march-image{
+    filter: brightness(50%);
+    }
+    /*robotics and ai section*/
+        .Robots-and-ai-image-learn-more-page{
+        margin-top: 10vw;
+        height: 80vw;
+    }
+    .robots-and-ai-heading{
+        margin-top: -75vw;
+    }
+    .robots-and-ai-text{
+        margin-top: -60vw;
+        max-width: 40;
+        margin-left: 25vw;
+        font-size: 1.5vw;
+    }
+    .small-images-robots-and-ai{
+        position: absolute;
+        margin-top: -35vw;
+    }
+    /*Biology section*/
+        .biology-image{
+        margin-top: 10vw;
+        height: 80vw;
+    }
+    .biology-heading{
+        margin-top: -75vw;
+    }
+    .biology-text{
+        margin-top: -60vw;
+        max-width: 40;
+        margin-left: 25vw;
+        font-size: 1.5vw;
+    }
+    .small-images-biology{
+        position: absolute;
+        margin-top: -35vw;
+    }
+    /*ecology section*/
+    .ecology-image{
+        margin-top: 10vw;
+        height: 80vw;
+    }
+    .ecology-heading{
+        margin-top: -75vw;
+    }
+    .ecology-text{
+        margin-top: -60vw;
+        max-width: 40;
+        margin-left: 25vw;
+        font-size: 1.5vw;
+    }
+    .small-images-ecology{
+        position: absolute;
+        margin-top: -35vw;
+    }
+    /*evolution section*/
+    .evolution-image{
+        margin-top: 10vw;
+        height: 80vw;
+    }
+    .evolution-heading{
+        margin-top: -75vw;
+    }
+    .evolution-text{
+        margin-top: -60vw;
+        max-width: 40;
+        margin-left: 25vw;
+        font-size: 1.5vw;
+    }
+    .small-images-evolution{
+    position: absolute;
+    margin-top: -35vw;
+}}
