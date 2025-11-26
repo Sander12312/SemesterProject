@@ -1,0 +1,118 @@
+.linking-header{
+    color: white;
+}
+*{
+    color: white;
+}
+.learn-more-heading{
+    margin-left: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    font-size: 3vw;
+}
+.cosmos-image-learn-more-page{
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 5vw;
+    filter: brightness(20%);
+}
+.cosmos-section-heading{
+    position: absolute;
+    margin-top: -40vw;
+    margin-left: 40vw;
+    font-size: 5vw;
+}
+    
+.cosmos-section-text{
+position: absolute;
+margin-left: 30vw;
+margin-top: -30vw;
+font-size: 2vw;
+max-width: 50vw;
+max-height: 30vw;
+
+}
+.small-images{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-left: 10vw;
+
+}
+.solarsystem-image, .march-image, .stars-image{
+    width: 20vw;
+    height: 30vw;
+    border-radius: 2.5vw;
+    margin-left: 5vw;
+}
+.solarsystem-heading{
+    position: absolute;
+    margin-left: 5.5vw;
+    font-size: 3vw;
+}
+.march-heading{
+    position: absolute;
+    margin-left: 35vw;
+    font-size: 3vw;
+}
+.stars-heading{
+position: absolute;
+margin-left: 61vw;
+font-size: 3vw;
+}
+.explore-button-solarsystem{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 5.7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+}
+ .explore-button-march{
+    position: absolute;
+    margin-left: 30.6vw;
+    margin-top: 24vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+ .explore-button-stars{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 55.6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+    text-decoration: none; 
+    color: white;
+    background-color: #6f00ff8e;
+ }
+.explore-button-stars:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+
+.explore-button-march:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+ .explore-button-solarsystem:hover{
+    background-color: #6f00ff;
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */}
+/*desktop version*/
+@media (min-width:600px){
+    
+}

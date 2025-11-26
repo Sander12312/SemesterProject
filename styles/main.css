@@ -446,8 +446,8 @@ footer{
     font
 }
 .icons{
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
 }
 .instagram, .facebook, .tiktok{
     width: 5vw;
