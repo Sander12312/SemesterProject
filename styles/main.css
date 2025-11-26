@@ -57,7 +57,7 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../photos/Norhern\ lights.jpg);
+    background-image: url(/photos/Norhern\ lights.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 80vw;
