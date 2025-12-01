@@ -57,7 +57,7 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/photos/Norhern\ lights.jpg);
+    background-image: url(../photos/Norhern\ lights.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 80vw;
@@ -120,7 +120,7 @@ align-items: center;
 justify-content: space-between;
 }
 .cosmos{
-    background-image: url(/photos/solarsystem.jpg);
+    background-image: url(../photos/solarsystem.jpg);
     display: flex;
     flex-direction: column;
     background-size: cover;
@@ -156,7 +156,7 @@ justify-content: space-between;
 }
 
 .robotics-and-ai{
-background-image: url(/photos/RobotsandAI.jpg);
+background-image: url(../photos/RobotsandAI.jpg);
     display: flex;
     flex-direction: column;
     background-size: cover;
@@ -175,7 +175,7 @@ background-image: url(/photos/RobotsandAI.jpg);
     margin-left: 7.5vw;
 }
 .biology-and-medicine{
-    background-image: url(/photos/Humanbody.jpg);
+    background-image: url(../photos/Humanbody.jpg);
     display: flex;
     flex-direction: column;
     background-size: cover;
@@ -194,7 +194,7 @@ background-image: url(/photos/RobotsandAI.jpg);
     margin-left: 7.5vw;
 }
 .ecology{
-    background-image: url(/photos/ecology.jpg);
+    background-image: url(../photos/ecology.jpg);
     display: flex;
     flex-direction: column;
     background-size: cover;
@@ -213,7 +213,7 @@ background-image: url(/photos/RobotsandAI.jpg);
     margin-left: 5vw;
 }
 .evolution{
-    background-image: url(/photos/evolution.jpg);
+    background-image: url(../photos/evolution.jpg);
     display: flex;
     flex-direction: column;
     background-size: cover;
