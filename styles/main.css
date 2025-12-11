@@ -96,10 +96,11 @@ i{
     padding-bottom: 1vw;
     border-radius: 10vw;
     margin-left: 13vw; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .explore-medium-button:hover{
     background-color: #6f00ff;
-     box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */
+    box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */
 }
 /*learn more section*/
 .lean-more-heading{
@@ -149,6 +150,7 @@ justify-content: space-between;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .explore-small-button:hover{
     background-color: #6f00ff;
@@ -281,6 +283,7 @@ font-weight: 200;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .news-explore-small-button:hover{
     background-color: #6f00ff;
@@ -341,6 +344,7 @@ font-weight: 200;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .explore-button:hover{
     background-color: #6f00ff;
@@ -376,6 +380,7 @@ font-weight: 200;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .contact-button:hover{
     background-color: #6f00ff;
@@ -473,6 +478,7 @@ footer{
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .explore-button-footer:hover{
        background-color: #6f00ff;
@@ -526,6 +532,7 @@ footer{
     padding-bottom: 1vw;
     border-radius: 10vw;
     font-size: 2vw;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .cosmos{
     height: 35vw;
@@ -590,6 +597,7 @@ margin-left: 3vw;
 .news-explore-small-button{
     position: absolute;
     margin-left: 5vw;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 /*explore section*/
 .for-kids-card, .for-researchers-card, .for-teachers-card{
@@ -617,5 +625,6 @@ width: 30vw;
     position:absolute;
     margin-top: 42.5vw;
     margin-left: 7.5vw;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 }

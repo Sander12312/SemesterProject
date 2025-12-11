@@ -51,6 +51,7 @@ textarea{
     .send-message-button-contactpage:hover{
     background-color: #6f00ff;
     box-shadow: 0 0 10px 1px #6f00ff; /* The glow effect */
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
     /*desktop version*/

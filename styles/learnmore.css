@@ -75,6 +75,7 @@ font-size: 3vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
  .explore-button-march{
     position: absolute;
@@ -89,6 +90,7 @@ font-size: 3vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
  .explore-button-stars{
     position: absolute;
@@ -103,6 +105,7 @@ font-size: 3vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
 .explore-button-stars:hover{
     background-color: #6f00ff;
@@ -180,6 +183,7 @@ font-size: 3vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
  .explore-button-ai{
     position: absolute;
@@ -194,6 +198,7 @@ font-size: 3vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
  .explore-button-future{
     position: absolute;
@@ -208,6 +213,7 @@ font-size: 3vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
 .explore-button-robots:hover{
     background-color: #6f00ff;
@@ -285,6 +291,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
  .explore-button-brain{
     position: absolute;
@@ -299,6 +306,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
  .explore-button-heart{
     position: absolute;
@@ -313,6 +321,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
 .explore-button-humanbody:hover{
     background-color: #6f00ff;
@@ -390,6 +399,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
  .explore-button-globalwarming{
     position: absolute;
@@ -404,6 +414,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
  .explore-button-pollution{
     position: absolute;
@@ -418,6 +429,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
 .explore-button-insects:hover{
     background-color: #6f00ff;
@@ -493,6 +505,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
  .explore-button-thestart{
     position: absolute;
@@ -507,6 +520,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
  .explore-button-creatures{
     position: absolute;
@@ -521,6 +535,7 @@ font-size: 2.8vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
 .explore-button-darwin:hover{
     background-color: #6f00ff;

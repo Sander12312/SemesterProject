@@ -67,6 +67,7 @@ font-size: 2vw;
     text-decoration: none; 
     color: white;
     background-color: #6f00ff8e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .kids-button:hover{
     background-color: #6f00ff;
