@@ -498,6 +498,38 @@ footer{
 .support-text, .volunteer-text, .internships-text{
     font-size: 2vw;
 }
+
+/* Improved CTA interactions */
+
+.explore-medium-button,
+.explore-small-button,
+.news-explore-small-button,
+.explore-button,
+.contact-button,
+.explore-button-footer {
+
+    background: linear-gradient(135deg, #6d28d9, #9333ea);
+    border-radius: 999px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 10px 25px rgba(147, 51, 234, 0.35);
+    transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    filter 0.3s ease;
+}
+
+.explore-medium-button:hover,
+.explore-small-button:hover,
+.news-explore-small-button:hover,
+.explore-button:hover,
+.contact-button:hover,
+.explore-button-footer:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(147, 51, 234, 0.6);
+    filter: brightness(1.1);
+}
 /*Desktop version*/
 @media(min-width:600px){
     /*header and navigation*/
@@ -626,5 +658,37 @@ width: 30vw;
     margin-top: 42.5vw;
     margin-left: 7.5vw;
     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Improved CTA interactions */
+
+.explore-medium-button,
+.explore-small-button,
+.news-explore-small-button,
+.explore-button,
+.contact-button,
+.explore-button-footer {
+
+    background: linear-gradient(135deg, #6d28d9, #9333ea);
+    border-radius: 999px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 10px 25px rgba(147, 51, 234, 0.35);
+    transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    filter 0.3s ease;
+}
+
+.explore-medium-button:hover,
+.explore-small-button:hover,
+.news-explore-small-button:hover,
+.explore-button:hover,
+.contact-button:hover,
+.explore-button-footer:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(147, 51, 234, 0.6);
+    filter: brightness(1.1);
 }
 }
